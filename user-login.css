@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, #232526, #414345);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand strong {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 12px;
+  color: white;
+}
+
+.login-card h2 {
+  color: #ffc107;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.btn-warning {
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e69500;
+}
+
+footer {
+  background-color: #000;
+}
